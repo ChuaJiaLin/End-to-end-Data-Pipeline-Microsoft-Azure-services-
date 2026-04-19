@@ -1,0 +1,25 @@
+{
+    "name": "daily_trigger",
+    "properties": {
+        "annotations": [],
+        "runtimeState": "Started",
+        "pipelines": [
+            {
+                "pipelineReference": {
+                    "referenceName": "copy_all_tables",
+                    "type": "PipelineReference"
+                }
+            }
+        ],
+        "type": "ScheduleTrigger",
+        "typeProperties": {
+            "recurrence": {
+                "frequency": "Day",
+                "interval": 1,
+                "startTime": "2026-04-12T19:12:30",
+                "endTime": "2026-04-13T09:19:00",
+                "timeZone": "Singapore Standard Time"
+            }
+        }
+    }
+}
