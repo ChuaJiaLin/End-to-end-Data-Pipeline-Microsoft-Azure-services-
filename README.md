@@ -58,3 +58,7 @@ The dashboard displays:
 - Total sales revenue
 - Gender distribution
 - Filters for product category and customer title (Mr, Mrs, Sra, Sr)
+
+<br>
+<br>
+📚 This project was created as part of my learning journey in cloud data engineering by following a <a href="https://www.youtube.com/watch?v=ygJ11fzq_ik">Youtube tutorial</a>.
