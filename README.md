@@ -59,6 +59,12 @@ The dashboard displays:
 - Gender distribution
 - Filters for product category and customer title (Mr, Mrs, Sra, Sr)
 
+# Reflection
+This project provides hands-on experience in building an end-to-end data pipeline using Microsoft Azure services. The process includes ingesting data using Azure Data Factory, storing data in Azure Data Lake Storage Gen 2, transforming raw data into analysis-ready formats using Azure Databricks, performing analytics with Azure Synapse Analytics, and visualizing results through Microsoft Power BI dashboards to generate meaningful business insights. In addition, the configuration of Azure Key Vault was implemented to ensure data security.
+
+During this tutorial, several challenges were encountered, such as configuring Azure services, handling authentication errors, and resolving issues where dashboards did not update after triggering the data pipeline. These challenges were addressed with the assistance of Microsoft Copilot and team collaboration, including troubleshooting errors and carefully reviewing each step based on the tutorial guidelines.
+
+
 <br>
 <br>
 📚 This project was created as part of my learning journey in cloud data engineering by following a <a href="https://www.youtube.com/watch?v=ygJ11fzq_ik">Youtube tutorial</a>.
